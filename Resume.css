@@ -1,0 +1,339 @@
+
+.screen1{
+    background-image: url('images/My Photo for Background.jpg');
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image ease-in-out 0.5s;
+    height: 58.75em;
+    margin: -0.5em;
+}
+.screen1:hover{
+    background-image: url('images/Photobackgroundnew.png');
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image ease-in-out 0.5s;
+    height: 58.75em;
+}
+#logo-top{
+    width: 10.25em;
+}
+.navbar{
+    background-color: rgb(30, 30, 30, 0.4) ;
+    backdrop-filter: blur(10px);
+    height: 5em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 1.55em;
+}
+.navbar ul {
+    list-style: none;
+    margin: 1em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar li {
+    margin-left: 1.8em;
+    padding-left: 2em;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    transition: color ease-in-out 0.5s, text-shadow ease-in-out 0.5s;
+}
+.navbar li a:hover {
+    text-shadow: #ff0084 0.1em 0.1em 0.2em;
+    transition: color ease-in-out 0.5s, text-shadow ease-in-out 0.5s;
+}
+.top-text{
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 4.5em;
+    margin-top: 4em;
+    margin-left: 4em;
+    text-shadow: #038fe5 0em 0em 0em;
+    float: left;
+    transition: text-shadow ease-in-out 0.7s;
+}
+.top-text:hover{
+    text-shadow: #038fe5 0.1em 0.1em 0.3em;
+    transition: text-shadow ease-in-out 0.7s;
+}
+.screen2{
+    height: 29.375em;
+    margin: -0.5625em;
+    padding: 0%;
+
+}
+.myphoto{
+    margin-left: 1.4375em;
+    margin-top: 1.1875em;
+    width: 30%;
+    float: left;
+}
+#cam{
+    border-radius: 0.75em;
+    width: 100%;
+    box-shadow: 0 0 0em #ff0084 ;
+}
+#cam:hover{
+    box-shadow: 0 0 0.5em #ff0084;
+    transition: box-shadow ease-in-out 0.5s;
+}
+#me{
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #ff0084;
+    transition: color ease-out 0.5s;
+}
+#me:hover{
+    color:#038fe5;
+}
+.Aboutme{
+    width:60%;
+    float: left;
+    margin-left: 3.4375em;
+    margin-top: 2em; 
+}
+.Aboutme p{
+    font-size: 3em;
+    font-family: monospace;
+    text-align: justify;
+    text-indent: 4em;
+}
+#container2{
+    width: 100%;
+}
+#container2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#container3{
+    width: 100%;
+    height: 50em;
+    background-image: url('images/Graphite_bg_blured.png');
+    margin-top: 1.25em;
+    float: left;
+    color: #ffffff;  
+}
+.skills{
+    width: 50%;
+    float: left;
+    margin-left: 2.5em;
+    margin-top: 2.5em;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+.skills h1{
+    color: #ffffff;
+    transition: color ease-in-out 0.5s;
+}
+.skills h1:hover{
+    color: #ff0084;
+    transition: color ease-in-out 0.5s;
+}
+.skills p{
+    font-size: 1em;
+    font-family: monospace;
+    text-align: justify;
+    text-indent: 4em;
+}
+.skills_pic{
+    width: 30%;
+    float: left;
+    margin-left: 8.5em;
+    margin-top: 8.5em;
+}
+#sony_cam{
+    width: 100%;
+    border-radius: 5.75em;
+    box-shadow: 0 0 0.9em #000000;
+    
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, opacity ease-in-out 0.2s, border-radius ease-in-out 0.2s;
+}
+
+#sony_cam:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #000000;
+    border-radius: 5.75em;
+    opacity: 0.9;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s , opacity ease-in-out 0.2s, border-radius ease-in-out 0.2s;
+}
+.experience_pic{
+    width: 30%;
+    float: left;
+    margin-left: 6.5em;
+    margin-top: 4.5em;
+}
+#canon_cam{
+    width: 100%;
+    border-radius: 5.75em;
+    box-shadow: 0 0 0.9em #000000;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, opacity ease-in-out 0.2s, scale ease-in-out 0.2s;
+}
+#canon_cam:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #000000;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s , opacity ease-in-out 0.2s, scale ease-in-out 0.2s;
+}
+.experience{
+    width: 50%;
+    float: left;
+    margin-left: 2.5em;
+    margin-top: 0.5em;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+.experience h1{
+    color: #ff0084;
+    transition: color ease-in-out 0.5s;
+}
+.experience h1:hover{
+    color: #003df0;
+    transition: color ease-in-out 0.5s;
+}
+.experience p{
+    font-size: 1em;
+    font-family: monospace;
+    text-align: justify;
+    text-indent: 4em;
+    color: black;
+}
+#container4::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#container5{
+    width: 100%;
+    height: 50em;
+    background-image: url('images/Graphite_bg_blured.png');
+    margin-top: 1.25em;
+    float: left;
+    color: #ffffff;  
+}
+.education{
+    text-align: center;
+    font-size: 4em;
+    font-family: monospace;
+    transition: color ease-in-out 0.5s;
+}
+.education:hover{
+    color: #ff0084;
+    transition: color ease-in-out 0.5s;
+}
+.card1{
+    background-color: aliceblue;
+    width: 18.75em;
+    height: 28em;
+    margin-left: 10.625em;
+    border-radius: 2em;
+    color: black;
+    text-align: center;
+    float: left;
+    padding: 2em;
+   
+}
+.card1 img{
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 1.75em;
+    display: inline-block;
+    align-self: center;
+    
+    
+}
+.card2{
+    background-color: aliceblue;
+    width: 18.75em;
+    height: 28em;
+    margin-left: 15em;
+    border-radius: 2em;
+    color: black;
+    text-align: center;
+    float: left;
+    padding: 2em;
+    
+}
+.card2 img{
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 1.75em;
+    display: inline-block;
+    align-self: center;
+    
+}
+.card3{
+    background-color: aliceblue;
+    width: 18.75em;
+    height: 28em;
+    margin-left: 15em;
+    border-radius: 2em;
+    color: black;
+    text-align: center;
+    float: left;
+    padding: 2em;
+    
+}
+.card3 img{
+    width: 18.75em;
+    height: 20.75em;
+    border-radius: 1.75em;
+    display: inline-block;
+    align-self: center;
+    scale: 108%;
+    
+}
+.card3 h1{
+    margin-top: -0.65em;
+}
+.card1{
+    transform: scale(1);
+    box-shadow: 0 0 0em #003df0;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+}
+.card1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #003df0;
+    background-color: #ffffff;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    transform: translateY(-20px);
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+.card2{
+    transform: scale(1);
+    box-shadow: 0 0 0em #003df0;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+}
+.card2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #003df0;
+    background-color: #ffffff;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    transform: translateY(-20px);
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+.card3{
+    transform: scale(1);
+    box-shadow: 0 0 0em #003df0;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+}
+.card3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #003df0;
+    background-color: #ffffff;
+    transition: transform ease-in-out 0.2s, box-shadow ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    transform: translateY(-20px);
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}

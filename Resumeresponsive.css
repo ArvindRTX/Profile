@@ -1,3 +1,23 @@
+div.topbutton{
+  position: sticky;
+  top: 8em;
+  padding: 5px;
+  margin-left: 0.2em;
+  margin-top: -3em;
+}
+#top{
+    color: #ffffff;
+    background-color: #ff0084;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.75em;
+}
+
+#top:hover{
+    background-color: #038fe5;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.5s;
+}
 .screen1 {
     background-image: url('images/My Photo for Background.jpg');
     width: auto;
@@ -546,6 +566,19 @@ footer img{
     }
     .footer-contact{
         width: 70%;
+    }
+    div.topbutton {
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        margin-left: 0.5em;
+        z-index: 999;
+    }
+    #top {
+        padding: 0.5em;
+        font-size: 1.2em;
+        margin-top: 2em;
+        
     }
 
 }

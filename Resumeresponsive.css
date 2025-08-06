@@ -2,8 +2,9 @@ div.topbutton{
   position: sticky;
   top: 8em;
   padding: 5px;
-  margin-left: 0.2em;
+  margin-right: 0.2em;
   margin-top: -3em;
+  z-index: 999;
 }
 #top{
     color: #ffffff;
@@ -11,6 +12,7 @@ div.topbutton{
     border: none;
     border-radius: 0.5em;
     padding: 0.75em;
+    float: right;
 }
 
 #top:hover{
@@ -578,6 +580,7 @@ footer img{
         padding: 0.5em;
         font-size: 1.2em;
         margin-top: 2em;
+        float: left;
         
     }
 

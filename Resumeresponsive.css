@@ -383,8 +383,37 @@
     transform: translateY(-20px);
     transition: opacity 0.2s ease-out, transform 0.2s ease-out;
 }
+footer {
+    background-color: #d9d7ce;
+    color: #232323;
+    padding: 1em;
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1em;
+    font-size: 1.1em;
+    line-height: 2em;
+    font-family: monospace;
+    color: #232323;
+    text-decoration: none;
+}
+footer ul li a{
+    color: #232323;
+    text-decoration: none;  
+} 
+footer img{
+    width: 16em;
+    height: 4em;
+    padding: 0.5em 0 0 0.5em;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
     body {
         font-size: 10px;
     }
@@ -484,33 +513,5 @@
         font-size: 0.8em;
         text-indent: 0;
     }
-
-    .Skills_pic, .Experience_pic {
-        width: 60%;
-        float: none;
-        margin: 1em auto;
-    }
-
-    #container5 {
-        height: auto;
-        padding-bottom: 2em;
-        float: none;
-    }
-
-    .education {
-        font-size: 2.5em;
-    }
-
-    .card1, .card2, .card3 {
-        width: 80%;
-        height: auto;
-        margin: 1em auto;
-        float: none;
-        padding: 1.5em;
-    }
-
-    .card1 img, .card2 img, .card3 img {
-        width: 100%;
-        height: auto;
-    }
 }
+ 

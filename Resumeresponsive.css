@@ -1,12 +1,13 @@
-div.topbutton{
-  position: sticky;
-  top: 8em;
-  padding: 5px;
-  margin-right: 0.2em;
-  margin-top: -3em;
-  z-index: 999;
+div.topbutton {
+    position: sticky;
+    top: 8em;
+    padding: 5px;
+    margin-right: 0.2em;
+    margin-top: -3em;
+    z-index: 999;
 }
-#top{
+
+#top {
     color: #ffffff;
     background-color: #ff0084;
     border: none;
@@ -15,11 +16,12 @@ div.topbutton{
     float: right;
 }
 
-#top:hover{
+#top:hover {
     background-color: #038fe5;
     cursor: pointer;
     transition: background-color ease-in-out 0.5s;
 }
+
 .screen1 {
     background-image: url('images/My Photo for Background.jpg');
     width: auto;
@@ -54,14 +56,18 @@ div.topbutton{
     z-index: 1000;
     font-size: 1.55em;
 }
-#one, #two{
+
+#one,
+#two {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.55em;
 }
-#two{
+
+#two {
     color: #ffffff;
     margin-top: -0.9em;
 }
+
 .navbar ul {
     list-style: none;
     margin: 1em;
@@ -405,15 +411,18 @@ div.topbutton{
     transform: translateY(-20px);
     transition: opacity 0.2s ease-out, transform 0.2s ease-out;
 }
+
 footer {
     background-color: #d9d7ce;
     color: #232323;
     padding: 1em;
     text-align: center;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
 }
+
 footer ul li {
     display: inline-flex;
     align-items: center;
@@ -424,11 +433,13 @@ footer ul li {
     color: #232323;
     text-decoration: none;
 }
-footer ul li a{
+
+footer ul li a {
     color: #232323;
-    text-decoration: none;  
-} 
-footer img{
+    text-decoration: none;
+}
+
+footer img {
     width: 16em;
     height: 4em;
     padding: 0.5em 0 0 0.5em;
@@ -450,23 +461,26 @@ footer img{
         float: none;
         text-align: center;
     }
-    #one, #two{
+
+    #one,
+    #two {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 3em;
         color: #ff0084;
-        
+
     }
-    #two{
+
+    #two {
         color: #ffffff;
         margin-top: -0.9em;
     }
-    
+
 
     .navbar {
         height: auto;
         font-size: 1em;
         position: sticky;
-        background-color: rgb(30, 30, 30,1);
+        background-color: rgb(30, 30, 30, 1);
         backdrop-filter: blur(0px);
     }
 
@@ -494,7 +508,8 @@ footer img{
         padding: 2em 0;
     }
 
-    .myphoto, .Aboutme {
+    .myphoto,
+    .Aboutme {
         width: 90%;
         float: none;
         margin: 1em auto;
@@ -511,7 +526,8 @@ footer img{
         line-height: 1.2;
     }
 
-    #container3, #container4 {
+    #container3,
+    #container4 {
         height: auto;
         padding: 2em 0;
         margin-top: 1.25em;
@@ -519,23 +535,27 @@ footer img{
         text-align: center;
     }
 
-    .skills, .experience {
+    .skills,
+    .experience {
         width: 90%;
         float: none;
         margin: 1em auto;
         font-size: 2em;
     }
 
-    .skills h1, .experience h1 {
+    .skills h1,
+    .experience h1 {
         text-align: center;
     }
 
-    .skills p, .experience p {
+    .skills p,
+    .experience p {
         font-size: 0.8em;
         text-indent: 0;
     }
 
-    .Skills_pic, .Experience_pic {
+    .Skills_pic,
+    .Experience_pic {
         width: 60%;
         float: none;
         margin: 1em auto;
@@ -551,7 +571,9 @@ footer img{
         font-size: 2.5em;
     }
 
-    .card1, .card2, .card3 {
+    .card1,
+    .card2,
+    .card3 {
         width: 80%;
         height: auto;
         margin: 1em auto;
@@ -559,16 +581,21 @@ footer img{
         padding: 1.5em;
     }
 
-    .card1 img, .card2 img, .card3 img {
+    .card1 img,
+    .card2 img,
+    .card3 img {
         width: 100%;
         height: auto;
     }
-    .footer-links{
+
+    .footer-links {
         width: 80%;
     }
-    .footer-contact{
+
+    .footer-contact {
         width: 70%;
     }
+
     div.topbutton {
         position: sticky;
         top: 0;
@@ -581,7 +608,6 @@ footer img{
         font-size: 1.2em;
         margin-top: 2em;
         float: left;
-        
     }
 
 }
